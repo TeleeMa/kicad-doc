@@ -74,6 +74,9 @@ add_subdirectory( src )
 # Start with the package version being unknown, then prove otherwise
 set( CPACK_PACKAGE_VERSION "unknown" )
 
+include( ${CMAKE_MODULE_PATH}/CreateGitVersionInfo.cmake )
+create_git_version_info( ${PROJECT_SOURCE_DIR} )
+
 # Use Git to determine parts of the package name
 find_package( Git )
 
