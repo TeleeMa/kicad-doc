@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew\n"
 "POT-Creation-Date: 2018-03-28 22:24+0900\n"
-"PO-Revision-Date: 2018-07-10 10:29+0800\n"
+"PO-Revision-Date: 2018-07-10 14:13+0800\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -192,12 +192,12 @@ msgstr "还包括四个铜层的颜色: image:images/Pcbnew_layer_colour_key.png
 #: pcbnew_fabrication_files.adoc:35
 #, no-wrap
 msgid "Final DRC test"
-msgstr ""
+msgstr "最终设计规则检查"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:39
 msgid "Before generating the output files, a global DRC test is very strongly recommended."
-msgstr ""
+msgstr "强烈建议在生成最终文件前做一个全面的设计规则检查"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:43
@@ -205,29 +205,31 @@ msgid ""
 "Zones are filled or refilled when starting a DRC. Press the button image:images/icons/drc."
 "png[] to launch the following DRC dialog:"
 msgstr ""
+"在启动设计规则检查时区域是填充或重新填充的. 按下按钮 image:images/icons/drc.png[] 启动以下设计"
+"规则检查对话框:"
 
 # 07072015：/ja/へ変更
 #. type: Target for macro image
 #: pcbnew_fabrication_files.adoc:44
 #, no-wrap
 msgid "images/Pcbnew_DRC_dialog.png"
-msgstr ""
+msgstr "images/ja/Pcbnew_DRC_dialog.png"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:47
 msgid "Adjust the parameters accordingly and then press the \"Start DRC\" button."
-msgstr ""
+msgstr "相应地调整参数，然后按“Start DRC”按钮。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:49
 msgid "This final check will prevent any unpleasant surprises."
-msgstr ""
+msgstr "最后的检查可以防止任何令人不快的意外。"
 
 #. type: Title ===
 #: pcbnew_fabrication_files.adoc:50
 #, no-wrap
 msgid "Setting coordinates origin"
-msgstr ""
+msgstr "设置坐标原点"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:56
@@ -236,19 +238,21 @@ msgid ""
 "axis on this origin. Activate the icon image:images/icons/pcb_offset.png[]. Move the auxiliary "
 "axis by left-clicking on the chosen location."
 msgstr ""
+"设置照片图和钻孔文件的坐标原点，必须将辅助轴放在此原点上。 激活图标图像：images / icons / "
+"pcb_offset.png []。 通过左键单击所选位置来移动辅助轴。"
 
 # 07072015：/ja/へ変更
 #. type: Target for macro image
 #: pcbnew_fabrication_files.adoc:57
 #, no-wrap
 msgid "images/Pcbnew_setting_pcb_origin.png"
-msgstr ""
+msgstr "images/Pcbnew_setting_pcb_origin.png"
 
 #. type: Title ===
 #: pcbnew_fabrication_files.adoc:59
 #, no-wrap
 msgid "Generating files for photo-tracing"
-msgstr ""
+msgstr "生成用于图像跟踪的文件"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:63
