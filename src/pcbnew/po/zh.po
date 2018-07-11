@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew\n"
 "POT-Creation-Date: 2018-03-28 22:24+0900\n"
-"PO-Revision-Date: 2018-07-10 14:13+0800\n"
+"PO-Revision-Date: 2018-07-11 22:45+0800\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -218,7 +218,7 @@ msgstr "images/ja/Pcbnew_DRC_dialog.png"
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:47
 msgid "Adjust the parameters accordingly and then press the \"Start DRC\" button."
-msgstr "相应地调整参数，然后按“Start DRC”按钮。"
+msgstr "相应地调整参数，然后按“启动DRC”按钮。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:49
@@ -257,14 +257,14 @@ msgstr "生成用于图像跟踪的文件"
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:63
 msgid "This is done via the Files/Plot menu option and invokes the following dialog:"
-msgstr ""
+msgstr "这是通过文件/绘制菜单选项完成的，并调用以下对话框："
 
 # 07072015：/ja/へ変更
 #. type: Target for macro image
 #: pcbnew_fabrication_files.adoc:64
 #, no-wrap
 msgid "images/Pcbnew_plot_dialog.png"
-msgstr ""
+msgstr "images/ja/Pcbnew_plot_dialog.png"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:69
@@ -272,33 +272,35 @@ msgid ""
 "Usually, the files are in the GERBER format. Nevertheless, it is possible to produce output in "
 "both HPGL and POSTSCRIPT formats. When Postscript format is selected, this dialog will appear."
 msgstr ""
+"通常，文件采用GERBER格式。 然而，可以以HPGL和POSTSCRIPT格式生成输出。 选择Postscript格式后，将"
+"出现此对话框。"
 
 # 07072015：/ja/へ変更
 #. type: Target for macro image
 #: pcbnew_fabrication_files.adoc:70
 #, no-wrap
 msgid "images/Pcbnew_plot_postscript_dialog.png"
-msgstr ""
+msgstr "images/ja/Pcbnew_plot_postscript_dialog.png"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:74
 msgid ""
 "In these formats, a fine scale adjust can be used to compensate for the plotter accuracy and "
 "to have a true scale of 1 for the output:"
-msgstr ""
+msgstr "在这些格式中，可以使用精细刻度调整来补偿绘图仪的精度，并使输出的真实比例为1："
 
 # 07072015：/ja/へ変更
 #. type: Target for macro image
 #: pcbnew_fabrication_files.adoc:75
 #, no-wrap
 msgid "images/Pcbnew_plot_fine_scale_setting.png"
-msgstr ""
+msgstr "images/ja/Pcbnew_plot_fine_scale_setting.png"
 
 #. type: Title ====
 #: pcbnew_fabrication_files.adoc:77
 #, no-wrap
 msgid "GERBER format"
-msgstr ""
+msgstr "GERBER格式"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:84
@@ -307,6 +309,8 @@ msgid ""
 "default in 4.6 format (each coordinate in the file is represented by 10 digits, of which 4 are "
 "before the decimal point and 6 follow it), units in inches, and a scale of 1."
 msgstr ""
+"对于每一层，Pcbnew按照GERBER 274X标准生成一个单独的文件，默认为4.6格式（文件中的每个坐标用10位"
+"数字表示，其中4位在小数点前面，6位在它后面），单位为英寸， 和1的比例。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:89
@@ -315,6 +319,8 @@ msgid ""
 "circuit, for the silkscreen, solder mask, and solder paste layers. All of these files can be "
 "produced in one step, by selecting the appropriate check boxes."
 msgstr ""
+"通常需要为所有铜层创建文件，并根据电路为文字层，阻焊层和焊锡膏层创建文件。 通过选择相应的复选"
+"框，可以一步生成所有这些文件。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:93
@@ -322,64 +328,66 @@ msgid ""
 "For example, for a double-sided circuit with silkscreen, solder mask and solder paste (for SMD "
 "components), 8 files should be generated ('xxxx' represents the name of the .brd file)."
 msgstr ""
+"例如，对于带有文字层，阻焊层和焊锡膏层（用于SMD元件）的双面电路，应生成8个文件（'xxxx'表示.brd"
+"文件的名称）。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:95
 msgid "xxxx-F_Cu.gbr for the component side."
-msgstr ""
+msgstr "组件方面的xxxx-F_Cu.gbr。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:96
 msgid "xxxx-B_Cu.gbr for the copper side."
-msgstr ""
+msgstr "铜侧为xxxx-B_Cu.gbr。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:97
 msgid "xxxx-F_SilkS.gbr for the component-side silkscreen markings."
-msgstr ""
+msgstr "xxxx-F_SilkS.gbr用于组件侧文字层标记。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:98
 msgid "xxxx-B_SilkS.gbr for the copper-side silkscreen markings."
-msgstr ""
+msgstr "xxxx-B_SilkS.gbr用于铜侧文字层标记。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:99
 msgid "xxxx-F_Paste.gbr for the component-side solder paste."
-msgstr ""
+msgstr "xxxx-F_Paste.gbr用于元件侧焊锡膏层。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:100
 msgid "xxxx-B_Paste.gbr for the copper-side solder paste."
-msgstr ""
+msgstr "xxxx-B_Paste.gbr用于铜侧焊锡膏层。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:101
 msgid "xxxx-F_Mask.gbr for the component-side solder mask."
-msgstr ""
+msgstr "xxxx-F_Mask.gbr用于元件侧阻焊层。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:102
 msgid "xxxx-B_Mask.gbr for the copper-side solder mask."
-msgstr ""
+msgstr "xxxx-B_Mask.gbr用于铜侧阻焊层。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:104
 msgid "GERBER file format:"
-msgstr ""
+msgstr "GERBER文件格式："
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:107
 msgid ""
 "The format used by Pcbnew is RS274X format 4.6, Imperial, Leading zero omitted, Abs format. "
 "These are very usual settings."
-msgstr ""
+msgstr "Pcbnew使用的格式是RS274X格式4.6，Imperial，前导零省略，Abs格式。 这些是非常常见的设置。"
 
 #. type: Title ====
 #: pcbnew_fabrication_files.adoc:108
 #, no-wrap
 msgid "POSTSCRIPT format"
-msgstr ""
+msgstr "POATCRIPT格式"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:115
@@ -389,6 +397,8 @@ msgid ""
 "Centre option is active, the origin for the coordinates of the tracing table is assumed to be "
 "in the centre of the drawing."
 msgstr ""
+"在postscript输出的情况下，输出文件的标准扩展名是.ps。 对于HPGL输出，布线可以是用户选择的比例，"
+"并且可以进行镜像。 如果Org = Center选项处于活动状态，则假定布线表坐标的原点位于图形的中心。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:117 pcbnew_fabrication_files.adoc:154
