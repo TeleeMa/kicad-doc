@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew\n"
 "POT-Creation-Date: 2018-03-28 22:24+0900\n"
-"PO-Revision-Date: 2018-07-11 22:45+0800\n"
+"PO-Revision-Date: 2018-07-11 23:15+0800\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -252,7 +252,7 @@ msgstr "images/Pcbnew_setting_pcb_origin.png"
 #: pcbnew_fabrication_files.adoc:59
 #, no-wrap
 msgid "Generating files for photo-tracing"
-msgstr "生成用于图像跟踪的文件"
+msgstr "生成用于光绘的文件"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:63
