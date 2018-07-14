@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew\n"
 "POT-Creation-Date: 2018-03-28 22:24+0900\n"
-"PO-Revision-Date: 2018-07-11 23:15+0800\n"
+"PO-Revision-Date: 2018-07-15 00:33+0800\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -409,36 +409,36 @@ msgstr ""
 #: pcbnew_fabrication_files.adoc:118
 #, no-wrap
 msgid "Plot options"
-msgstr ""
+msgstr "常规选项"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:121
 msgid "Gerber format:"
-msgstr ""
+msgstr "Gerber格式："
 
 # 07072015：/ja/へ変更
 #. type: Target for macro image
 #: pcbnew_fabrication_files.adoc:122
 #, no-wrap
 msgid "images/Pcbnew_plot_options_gerber.png"
-msgstr ""
+msgstr "images/Pcbnew_plot_options_gerber.png"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:125
 msgid "Other formats:"
-msgstr ""
+msgstr "其它格式:"
 
 # 07072015：/ja/へ変更
 #. type: Target for macro image
 #: pcbnew_fabrication_files.adoc:126
 #, no-wrap
 msgid "images/Pcbnew_plot_options_other_formats.png"
-msgstr ""
+msgstr "images/Pcbnew_plot_options_other_formats.png"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:129
 msgid "GERBER format specific options:"
-msgstr ""
+msgstr "GERBER选项："
 
 #. type: delimited block |
 #: pcbnew_fabrication_files.adoc:139
@@ -451,22 +451,28 @@ msgid ""
 "| Subtract soldermask from silkscreen\n"
 "| Remove all Silk from solder paste areas.\n"
 msgstr ""
+"使用Protel文件拓展名\n"
+"使用 .gbl .gtl .gbs .gts .gbp .gtp .gbo .gto代替 .gbr作为文件拓展名\n"
+"包括扩展属性\n"
+"输出扩展属性到文件\n"
+"从丝印减去阻焊\n"
+"从焊锡膏区域移去所有丝。\n"
 
 #. type: Title ====
 #: pcbnew_fabrication_files.adoc:141
 #, no-wrap
 msgid "Other formats"
-msgstr ""
+msgstr "其它格式"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:144
 msgid "The standard extension depends on the output file type."
-msgstr ""
+msgstr " 标准扩展名取决于输出文件类型。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:146
 msgid "Some options are not available for some formats."
-msgstr ""
+msgstr "某些格式无法使用某些选项。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:148
