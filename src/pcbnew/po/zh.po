@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pcbnew\n"
 "POT-Creation-Date: 2018-03-28 22:24+0900\n"
-"PO-Revision-Date: 2018-07-15 00:33+0800\n"
+"PO-Revision-Date: 2018-07-19 01:05+0800\n"
 "Language-Team: kicad.jp <kicad@kicad.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -477,139 +477,139 @@ msgstr "某些格式无法使用某些选项。"
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:148
 msgid "The plot can be done at user-selected scales and can be mirrored."
-msgstr ""
+msgstr "绘图可以在用户选择的比例下完成，并且可以进行镜像。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:152
 msgid ""
 "The Print Drill Opt list offers the option of pads that are filled, drilled to the correct "
 "diameter or drilled with a small hole (to guide hand drilling)."
-msgstr ""
+msgstr "“打印钻孔选项”列表提供了填充，钻孔到正确直径或钻有小孔（用于引导手钻）的焊盘选项。"
 
 #. type: Title ===
 #: pcbnew_fabrication_files.adoc:155
 #, no-wrap
 msgid "Global clearance settings for the solder stop and the solder paste mask"
-msgstr ""
+msgstr "焊料挡板和锡膏掩模的全局间隙设置"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:160
 msgid ""
 "Mask clearance values can be set globally for the solder mask layers and the solder paste "
 "layers. These clearances can be set at the following levels."
-msgstr ""
+msgstr "可以为阻焊层和锡膏层全局设置阻焊间隙值。 这些间隙可以设置在以下级别。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:162
 msgid "At pads level."
-msgstr ""
+msgstr "在焊盘水平。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:163
 msgid "At footprint level."
-msgstr ""
+msgstr "在封装水平。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:164
 msgid "Globally."
-msgstr ""
+msgstr "全局的。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:166
 msgid "And Pcbnew uses by priority order."
-msgstr ""
+msgstr "并且Pcbnew按优先顺序使用。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:168
 msgid "Pad values. If null:"
-msgstr ""
+msgstr "焊盘值。如果为null:"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:169
 msgid "Footprint values. If null:"
-msgstr ""
+msgstr "封装值。如果为null:"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:170
 msgid "Global values."
-msgstr ""
+msgstr "全局值。"
 
 #. type: Title ====
 #: pcbnew_fabrication_files.adoc:171
 #, no-wrap
 msgid "Access"
-msgstr ""
+msgstr "路径"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:174
 msgid "The menu option for this is available via the Dimensions menu:"
-msgstr ""
+msgstr "可通过“尺寸标注”菜单获取此菜单选项："
 
 # 07072015：/ja/へ変更
 #. type: Target for macro image
 #: pcbnew_fabrication_files.adoc:175
 #, no-wrap
 msgid "images/Pcbnew_pad_mask_clearance_menu_item.png"
-msgstr ""
+msgstr "images/ja/Pcbnew_pad_mask_clearance_menu_item.png"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:178
 msgid "The dialog box is the following:"
-msgstr ""
+msgstr "对话框如下："
 
 # 07072015：/ja/へ変更
 #. type: Target for macro image
 #: pcbnew_fabrication_files.adoc:179
 #, no-wrap
 msgid "images/Pcbnew_pad_mask_settings_dialog.png"
-msgstr ""
+msgstr "images/ja/Pcbnew_pad_mask_settings_dialog.png"
 
 #. type: Title ====
 #: pcbnew_fabrication_files.adoc:181
 #, no-wrap
 msgid "Solder mask clearance"
-msgstr ""
+msgstr "阻焊层间隙"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:185
 msgid ""
 "A value near to 0.2 mm is usually good. This value is positive because the mask is usually "
 "bigger than the pad."
-msgstr ""
+msgstr "接近0.2毫米的值通常是好的。 该值为正，因为阻焊间隙通常大于焊盘。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:187
 msgid "One can set a minimum value for the solder mask width, between 2 pads."
-msgstr ""
+msgstr "可以在2个焊盘之间设置阻焊宽度的最小值。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:190
 msgid ""
 "If the actual value is smaller than the minimum value, the 2 solder mask shapes will be merged."
-msgstr ""
+msgstr "如果实际值小于最小值，则将合并2个阻焊形状。"
 
 #. type: Title ====
 #: pcbnew_fabrication_files.adoc:191
 #, no-wrap
 msgid "Solder paste clearance"
-msgstr ""
+msgstr "锡膏间隙"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:195
 msgid ""
 "The final clearance is the sum of the solder paste clearance and a percentage of the pad size."
-msgstr ""
+msgstr "最终间隙是锡膏间隙和焊盘尺寸百分比的总和。"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:198
 msgid "This value is negative because the mask is usually smaller than the pad."
-msgstr ""
+msgstr "该值为负，因为掩模通常小于焊盘。"
 
 #. type: Title ===
 #: pcbnew_fabrication_files.adoc:199
 #, no-wrap
 msgid "Generating drill files"
-msgstr ""
+msgstr "生成钻孔文件"
 
 #. type: Plain text
 #: pcbnew_fabrication_files.adoc:203
